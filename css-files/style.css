@@ -1,0 +1,708 @@
+/* ==========================================
+   RESET
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   ROOT
+========================================== */
+
+:root {
+
+    --primary-text: #111111;
+    --secondary-text: #555555;
+
+    --border-color: #dddddd;
+
+    --background: #ffffff;
+
+    --container-width: 95%;
+    --max-width: 1400px;
+
+    --section-spacing: 50px;
+
+    --card-radius: 6px;
+}
+
+/* ==========================================
+   GLOBAL
+========================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: var(--background);
+
+    color: var(--primary-text);
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+/* ==========================================
+   LINKS
+========================================== */
+
+a {
+
+    color: #000000;
+
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+header {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    background-color: #ffffff;
+
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+nav {
+
+    width: min(var(--max-width), var(--container-width));
+
+    margin: 0 auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 0;
+}
+
+#logo h1 {
+
+    font-size: 2rem;
+
+    font-weight: 600;
+}
+
+#nav-links {
+
+    list-style: none;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 24px;
+}
+
+#nav-links a {
+
+    color: #000000;
+
+    font-size: 1rem;
+
+    font-weight: 500;
+}
+
+/* ==========================================
+   MAIN
+========================================== */
+
+main {
+
+    width: min(var(--max-width), var(--container-width));
+
+    margin: 0 auto;
+}
+
+/* ==========================================
+   SECTIONS
+========================================== */
+
+section {
+
+    padding: var(--section-spacing) 0;
+
+    border-bottom: 1px solid #efefef;
+}
+
+section:last-child {
+
+    border-bottom: none;
+}
+
+h2 {
+
+    font-size: 2rem;
+
+    margin-bottom: 24px;
+
+    font-weight: 600;
+}
+
+h3 {
+
+    font-size: 1.15rem;
+
+    margin-bottom: 10px;
+
+    font-weight: 600;
+}
+
+p {
+
+    margin-bottom: 10px;
+}
+
+/* ==========================================
+   HERO
+========================================== */
+
+#hero {
+
+    text-align: center;
+
+    padding: 70px 0;
+}
+
+#hero h2 {
+
+    font-size: 3rem;
+
+    margin-bottom: 10px;
+}
+
+#hero p {
+
+    color: var(--secondary-text);
+
+    font-size: 1.1rem;
+}
+
+/* ==========================================
+   ABOUT
+========================================== */
+
+.about-container {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 50px;
+}
+
+.about-photo {
+
+    flex-shrink: 0;
+}
+
+.about-photo img {
+
+    width: 250px;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    border-radius: 50%;
+
+    border: 2px solid #000000;
+
+    display: block;
+}
+
+.about-content {
+
+    flex: 1;
+}
+
+.about-content p {
+
+    max-width: 900px;
+
+    text-align: justify;
+}
+
+.cv-download-btn {
+
+    display: inline-block;
+
+    margin-top: 10px;
+
+    padding: 10px 20px;
+
+    border: 1px solid #000000;
+
+    background-color: #ffffff;
+
+    color: #000000;
+
+    font-size: 0.95rem;
+
+    border-radius: 4px;
+}
+
+.cv-download-btn:hover {
+
+    background-color: #f7f7f7;
+
+    text-decoration: none;
+}
+
+/* ==========================================
+   EDUCATION
+========================================== */
+
+.timeline {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    position: relative;
+
+    margin-top: 30px;
+}
+
+.timeline::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 12px;
+
+    left: 10%;
+
+    right: 10%;
+
+    height: 2px;
+
+    background-color: #cccccc;
+
+    z-index: 0;
+}
+
+.timeline-item {
+
+    flex: 1;
+
+    padding: 0 15px;
+
+    position: relative;
+
+    z-index: 1;
+}
+
+.timeline-dot {
+
+    width: 24px;
+
+    height: 24px;
+
+    margin: 0 auto 15px;
+
+    border-radius: 50%;
+
+    background-color: #ffffff;
+
+    border: 2px solid #000000;
+}
+
+.timeline-item h3 {
+
+    margin-bottom: 5px;
+}
+
+.timeline-item p {
+
+    color: var(--secondary-text);
+
+    margin-bottom: 4px;
+}
+
+.timeline-item span {
+
+    font-weight: 600;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 1024px) {
+
+    .about-container {
+
+        gap: 35px;
+    }
+
+    .about-photo img {
+
+        width: 220px;
+
+        height: 220px;
+    }
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    nav {
+
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+    #nav-links {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .about-container {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 25px;
+    }
+
+    .about-photo img {
+
+        width: 180px;
+
+        height: 180px;
+    }
+
+    .about-content p {
+
+        text-align: left;
+    }
+
+    .timeline {
+
+        flex-direction: column;
+
+        gap: 30px;
+    }
+
+    .timeline::before {
+
+        display: none;
+    }
+
+    .timeline-item {
+
+        padding: 0;
+    }
+
+    .timeline-dot {
+
+        margin-left: 0;
+    }
+
+    #hero {
+
+        padding: 50px 0;
+    }
+
+    #hero h2 {
+
+        font-size: 2.2rem;
+    }
+
+    h2 {
+
+        font-size: 1.8rem;
+    }
+
+    body {
+
+        font-size: 16px;
+    }
+}
+
+/* ==========================================
+   SHARED GRID LAYOUT
+========================================== */
+
+#skills,
+#projects,
+#certifications,
+#interests {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(340px, 1fr));
+
+    gap: 20px;
+
+    align-items: start;
+}
+
+#skills > h2,
+#projects > h2,
+#certifications > h2,
+#interests > h2 {
+
+    grid-column: 1 / -1;
+}
+
+/* ==========================================
+   SHARED CARD DESIGN
+========================================== */
+
+#skills article,
+.project,
+.certification,
+.interest-card {
+
+    border: 1px solid var(--border-color);
+
+    border-radius: var(--card-radius);
+
+    background: #ffffff;
+
+    padding: 20px;
+}
+
+#skills h3,
+.project h3,
+.certification h3,
+.interest-card h3 {
+
+    margin-bottom: 12px;
+}
+
+.project p,
+.certification p,
+.interest-card p {
+
+    margin-bottom: 8px;
+}
+
+/* ==========================================
+   SKILLS
+========================================== */
+
+#skills ul {
+
+    list-style: none;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+#skills li {
+
+    padding: 6px 10px;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 4px;
+
+    background: #ffffff;
+
+    font-size: 0.95rem;
+}
+
+/* ==========================================
+   PROJECTS
+========================================== */
+
+.project {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.project a {
+
+    word-break: break-word;
+}
+
+/* ==========================================
+   CERTIFICATIONS
+========================================== */
+
+.certification {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.certification a {
+
+    word-break: break-word;
+}
+
+/* ==========================================
+   ACHIEVEMENTS
+========================================== */
+
+#achievements ul {
+
+    padding-left: 22px;
+}
+
+#achievements li {
+
+    margin-bottom: 8px;
+
+    line-height: 1.7;
+}
+
+/* ==========================================
+   INTERESTS
+========================================== */
+
+.interest-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.interest-card p {
+
+    color: var(--secondary-text);
+
+    margin-bottom: 0;
+}
+
+/* ==========================================
+   CONTACT
+========================================== */
+
+#contact ul {
+
+    list-style: none;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 24px;
+
+    align-items: center;
+}
+
+#contact li {
+
+    margin: 0;
+}
+
+#contact a {
+
+    font-weight: 500;
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer {
+
+    width: min(var(--max-width), var(--container-width));
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    padding: 25px 0;
+
+    border-top: 1px solid var(--border-color);
+
+    color: var(--secondary-text);
+
+    font-size: 0.95rem;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 1024px) {
+
+    #skills,
+    #projects,
+    #certifications,
+    #interests {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    #skills,
+    #projects,
+    #certifications,
+    #interests {
+
+        grid-template-columns: 1fr;
+    }
+
+    #contact ul {
+
+        justify-content: center;
+
+        gap: 15px;
+    }
+}
