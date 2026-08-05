@@ -1,7 +1,7 @@
 # Swaraj Sodadasi
 
-**Computer Science Graduate Student | Aspiring ML & Systems Researcher**  
-[Email](mailto:swarajacc12004@gmail.com) • [LinkedIn](https://www.linkedin.com/in/swaraj-sodadasi-3b5362262/) • [Personal Website](https://swaraj-sodadasi.github.io/) 
+**Computer Science Graduate Student | Aspiring Machine Learning & Systems Researcher**  
+[Email](mailto:swarajacc12004@gmail.com) • [LinkedIn](https://www.linkedin.com/in/swaraj-sodadasi-3b5362262/) • [Personal Website](https://swaraj-sodadasi.github.io/swaraj-sodadasi/) 
 
 ---
 
@@ -30,22 +30,11 @@ My primary research interests lie at the intersection of **High-Performance Mach
 
 ## 🎓 Education
 
-* **B.Tech. in Computer Science** | *Sri Vasavi Engineering college,* (2024 – Present)
+* **B.Tech. in Computer Science** | *Sri Vasavi Engineering college,* (2021 – 2025)
     * Summa Cum Laude | GPA: 8.96 / 10.0
-
----
-
-## 📈 GitHub Statistics & Activity
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=swaraj-sodadasi&show_icons=true&theme=nord&hide_border=true" alt="Swaraj Sodadasi's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=swaraj-sodadasi&layout=compact&theme=nord&hide_border=true" alt="Top Languages" width="48%" />
-</p>
 
 ---
 
 ## 📬 Contact & Collaboration
 
 I am always open to research collaborations, discussing system architecture designs, or exploring PhD opportunities/research scientist roles.
-
-* **Email:** [alex.chen@example.edu](mailto:swarajacc12004@gmail.com)
