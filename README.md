@@ -23,7 +23,7 @@ My primary research interests lie at the intersection of **High-Performance Mach
 
 ## 📜 Selected Publications & Preprints
 
-1. **Swaraj Sodadasi**, Prasanthi, Srinivasan, Shyam, Kumar, Nagesh, Pujan. (2025). *Converging CNN-Powered Deep Learning and Healthcare Informatics: A TensorFlow-Based Framework for Medical Image Analysis and Scalable Patient Data Management*. In **JETNR - JOURNAL OF EMERGING TRENDS AND NOVEL RESEARCH (www.JETNR.org)**.  
+1. **Swaraj Sodadasi**, Prasanthi, Srinivasan, Shyam, Kumar, Nagesh, Pujan. (2025). *Converging CNN-Powered Deep Learning and Healthcare Informatics: A TensorFlow-Based Framework for Medical Image Analysis and Scalable Patient Data Management*. In **JETNR - JOURNAL OF EMERGING TRENDS AND NOVEL RESEARCH**.  
    [ [Paper](https://rjpn.org/jetnr/viewpaperforall.php?paper=JETNR2503029) | [Code](TBA) | [BibTeX](ISSN:2984-9276, Vol.3, Issue 3, page no.a266-a276, March-2025) ]
 
 ---
