@@ -1,7 +1,7 @@
 # Swaraj Sodadasi
 
 **Computer Science Graduate Student | Aspiring Machine Learning & Systems Researcher**  
-[Email](mailto:swarajacc12004@gmail.com) • [LinkedIn](https://www.linkedin.com/in/swaraj-sodadasi-3b5362262/) • [Personal Website](https://swaraj-sodadasi.github.io/swaraj-sodadasi/) 
+[Email](mailto:swarajacc12004@gmail.com) • [LinkedIn](https://www.linkedin.com/in/swaraj-sodadasi-3b5362262/) • [Personal Website](https://swaraj-sodadasi.github.io/) 
 
 ---
 
@@ -24,7 +24,7 @@ My primary research interests lie at the intersection of **High-Performance Mach
 ## 📜 Selected Publications & Preprints
 
 1. **Swaraj Sodadasi**, Prasanthi, Srinivasan, Shyam, Kumar, Nagesh, Pujan. (2025). *Converging CNN-Powered Deep Learning and Healthcare Informatics: A TensorFlow-Based Framework for Medical Image Analysis and Scalable Patient Data Management*. In **JETNR - JOURNAL OF EMERGING TRENDS AND NOVEL RESEARCH**.  
-   [ [Paper](https://rjpn.org/jetnr/viewpaperforall.php?paper=JETNR2503029) | [Code](TBA) | [BibTeX](ISSN:2984-9276, Vol.3, Issue 3, page no.a266-a276, March-2025) ]
+   [ [Paper](https://rjpn.org/jetnr/viewpaperforall.php?paper=JETNR2503029) | [Code](TBA) | [BibTeX](ISSN:2984-9276, Vol.3, Issue 3, page no.a266-a276, March-2025 TBA) ]
 
 ---
 
