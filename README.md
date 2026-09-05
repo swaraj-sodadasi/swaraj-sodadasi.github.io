@@ -15,9 +15,9 @@ My primary research interests lie at the intersection of **High-Performance Mach
 
 | Category | Technologies & Tools |
 | :--- | :--- |
-| **Languages** | Python (Tensorflow), C++ (C++23), Java SE, SQL, Bash |
+| **Languages** | Python, C++, Java SE, SQL, Bash |
 | **Systems & Tools** | CMake, Docker, Linux, Git |
-| **Scientific & Math** | LaTeX, Matplotlib |
+| **Scientific & Math** | PyTorch, LaTeX, Matplotlib |
 
 ---
 
@@ -26,14 +26,7 @@ My primary research interests lie at the intersection of **High-Performance Mach
 1. **Swaraj Sodadasi**, Prasanthi, Srinivasan, Shyam, Kumar, Nagesh, Pujan. (2025). *Converging CNN-Powered Deep Learning and Healthcare Informatics: A TensorFlow-Based Framework for Medical Image Analysis and Scalable Patient Data Management*. In **JETNR - JOURNAL OF EMERGING TRENDS AND NOVEL RESEARCH**.  
    [ [Paper](https://rjpn.org/jetnr/viewpaperforall.php?paper=JETNR2503029) | [Code](TBA) | [BibTeX](ISSN:2984-9276, Vol.3, Issue 3, page no.a266-a276, March-2025 TBA) ]
 
----
-
-## 🎓 Education
-
-* **B.Tech. in Computer Science** | *Sri Vasavi Engineering college,* (2021 – 2025)
-    * Summa Cum Laude | GPA: 8.96 / 10.0
-
----
+---s
 
 ## 📬 Contact & Collaboration
 
