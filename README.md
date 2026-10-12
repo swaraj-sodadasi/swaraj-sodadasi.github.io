@@ -31,3 +31,12 @@ My primary research interests lie at the intersection of **High-Performance Mach
 ## 📬 Contact & Collaboration
 
 I am always open to research collaborations, discussing system architecture designs, or exploring PhD opportunities/research scientist roles.
+
+---
+> while(true){
+
+> rewrite code;
+
+> break;
+
+> }
